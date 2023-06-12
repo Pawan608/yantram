@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1f76e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  &_form {
+    flex: 3;
+    min-width: 35rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+    &_logo {
+      display: flex;
+      justify-content: space-between;
+      & img {
+        object-fit: contain;
+      }
+    }
+  }
+  &_vector {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 4rem;
+    &_heading {
+      align-self: stretch;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 42px;
+      line-height: 56px;
+      /* or 133% */
+
+      color: #ffffff;
+      margin-bottom: 5rem;
+    }
+  }
+}

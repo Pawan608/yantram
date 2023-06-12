@@ -1,0 +1,64 @@
+.widzet {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: auto;
+  .widzet_box {
+    width: 28.68rem;
+    height: 27.18rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    & > *:first-child {
+      margin-top: auto;
+    }
+    & > *:last-child {
+      margin-bottom: auto;
+    }
+    & > * {
+      margin-bottom: 1rem;
+    }
+    img {
+      height: 4rem;
+      width: 4rem;
+      object-fit: contain;
+    }
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  .orange {
+    background-color: #fbb892;
+    box-shadow: 0px 10px 30px #f4ada3;
+    border-radius: 40px;
+  }
+  .blue {
+    background: #c0e4ff;
+    box-shadow: 0px 10px 30px #c0e4ff;
+    border-radius: 40px;
+  }
+  .grey {
+    background: #dbdbdb;
+    box-shadow: 0px 10px 30px #dbdbdb;
+    border-radius: 40px;
+  }
+}
+
+.heading {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+}
+.paragraph {
+  color: #656565;
+  text-align: center;
+}
+.dashboard {
+  color: #034398;
+  cursor: pointer;
+  margin-top: 4rem;
+  font-weight: 600;
+}
